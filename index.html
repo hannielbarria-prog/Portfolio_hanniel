@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portafolio personal de Haniel Barría: tecnología informática, programación y robótica."
+  >
+  <meta name="theme-color" content="#07111f">
+  <title>Haniel Barría | Portafolio</title>
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- =========================================================
+       ENCABEZADO Y NAVEGACIÓN
+  ========================================================== -->
+  <header class="site-header" id="inicio">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Haniel Barría, inicio">
+        HB<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menú de navegación"
+        aria-controls="navLinks"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Presentación principal -->
+    <section class="hero container" aria-labelledby="heroTitle">
+      <div class="hero-content">
+        <p class="eyebrow">PORTAFOLIO PERSONAL</p>
+        <h1 id="heroTitle">Hola, soy <span>Haniel Barría</span></h1>
+        <p class="hero-text">
+          Estudiante de Tecnología Informática apasionado por la programación,
+          la robótica y la creación de soluciones digitales.
+        </p>
+
+        <div class="buttons">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-secondary" href="#contacto">Contactarme</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Lema personal">
+        <div class="initials" aria-hidden="true">HB</div>
+        <h2>Tecnología + Creatividad</h2>
+        <p>Aprender · Crear · Innovar</p>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <!-- =======================================================
+         SOBRE MÍ
+    ======================================================== -->
+    <section class="section section-alt" id="sobre-mi" aria-labelledby="aboutTitle">
+      <div class="section-inner container two-columns">
+        <div>
+          <p class="section-tag">01 / SOBRE MÍ</p>
+          <h2 id="aboutTitle">Convirtiendo ideas en <span>proyectos</span></h2>
+        </div>
+
+        <div class="about-content">
+          <p>
+            Soy estudiante de Bachiller en Tecnología Informática en Panamá.
+            Me considero una persona responsable, disciplinada, respetuosa y
+            con facilidad para trabajar en equipo.
+          </p>
+          <p>
+            Me interesa seguir desarrollando mis conocimientos en programación,
+            tecnología y robótica, mientras exploro nuevas experiencias que me
+            permitan salir de mi zona de confort.
+          </p>
+
+          <dl class="facts">
+            <div>
+              <dt>Ubicación</dt>
+              <dd>Panamá</dd>
+            </div>
+            <div>
+              <dt>Área</dt>
+              <dd>Tecnología Informática</dd>
+            </div>
+            <div>
+              <dt>Intereses</dt>
+              <dd>Programación y robótica</dd>
+            </div>
+            <div>
+              <dt>Idiomas</dt>
+              <dd>Español · Inglés · Francés</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         HABILIDADES
+    ======================================================== -->
+    <section class="section" id="habilidades" aria-labelledby="skillsTitle">
+      <div class="section-inner container">
+        <p class="section-tag">02 / HABILIDADES</p>
+        <h2 id="skillsTitle">Lo que estoy <span>aprendiendo</span></h2>
+        <p class="section-subtitle">
+          Mis habilidades representan un proceso continuo de aprendizaje.
+        </p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-heading"><span>HTML</span><strong>90%</strong></div>
+            <div class="progress" role="progressbar" aria-label="HTML" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+              <span class="progress-bar" data-progress="90"></span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading"><span>CSS</span><strong>85%</strong></div>
+            <div class="progress" role="progressbar" aria-label="CSS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+              <span class="progress-bar" data-progress="85"></span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading"><span>JavaScript</span><strong>75%</strong></div>
+            <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">
+              <span class="progress-bar" data-progress="75"></span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading"><span>Arduino / C++</span><strong>80%</strong></div>
+            <div class="progress" role="progressbar" aria-label="Arduino y C plus plus" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+              <span class="progress-bar" data-progress="80"></span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading"><span>Impresión 3D</span><strong>75%</strong></div>
+            <div class="progress" role="progressbar" aria-label="Impresión 3D" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">
+              <span class="progress-bar" data-progress="75"></span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading"><span>Trabajo en equipo</span><strong>90%</strong></div>
+            <div class="progress" role="progressbar" aria-label="Trabajo en equipo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+              <span class="progress-bar" data-progress="90"></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         PROYECTOS
+    ======================================================== -->
+    <section class="section section-alt" id="proyectos" aria-labelledby="projectsTitle">
+      <div class="section-inner container">
+        <p class="section-tag">03 / PROYECTOS</p>
+        <h2 id="projectsTitle">Ideas que se convierten en <span>realidad</span></h2>
+        <p class="section-subtitle">
+          Una selección de trabajos y proyectos tecnológicos.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">🤖</div>
+            <p class="project-number">PROYECTO 01</p>
+            <h3>Robot de exploración</h3>
+            <p>
+              Propuesta de un robot con orugas basado en Arduino UNO R4 para
+              explorar zonas de difícil acceso.
+            </p>
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>Arduino</li><li>C++</li><li>MPU6050</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">🖨️</div>
+            <p class="project-number">PROYECTO 02</p>
+            <h3>Diseño e impresión 3D</h3>
+            <p>
+              Creación de piezas y prototipos mediante impresión 3D,
+              combinando tecnología y creatividad.
+            </p>
+            <ul class="tags" aria-label="Temas del proyecto">
+              <li>3D</li><li>Diseño</li><li>Prototipos</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon" aria-hidden="true">💻</div>
+            <p class="project-number">PROYECTO 03</p>
+            <h3>Desarrollo web</h3>
+            <p>
+              Creación de páginas web con HTML, CSS y JavaScript, enfocadas
+              en diseño adaptable e interacción.
+            </p>
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         CONTACTO
+    ======================================================== -->
+    <section class="section" id="contacto" aria-labelledby="contactTitle">
+      <div class="section-inner container two-columns contact-layout">
+        <div>
+          <p class="section-tag">04 / CONTACTO</p>
+          <h2 id="contactTitle">¿Tienes una <span>idea</span>?</h2>
+          <p class="section-subtitle">
+            Completa el formulario. Los campos se validan mientras escribes.
+          </p>
+          <p class="contact-info">✉ Portafolio académico</p>
+          <p class="contact-info">⌂ Panamá, Panamá</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Tu nombre" aria-describedby="nameError">
+            <small class="field-error" id="nameError"></small>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com" aria-describedby="emailError">
+            <small class="field-error" id="emailError"></small>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." aria-describedby="messageError"></textarea>
+            <small class="field-error" id="messageError"></small>
+          </div>
+
+          <button class="btn btn-primary submit-button" type="submit">
+            Validar mensaje →
+          </button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       PIE DE PÁGINA
+  ========================================================== -->
+  <footer class="site-footer container">
+    <a class="logo" href="#inicio" aria-label="Volver al inicio">HB<span>.</span></a>
+    <p>© <span id="year"></span> Haniel Barría · Portafolio personal</p>
+    <a class="back-to-top" href="#inicio" aria-label="Volver al inicio">↑</a>
+  </footer>
+
+  <!-- JavaScript al final para cargar después del contenido -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
